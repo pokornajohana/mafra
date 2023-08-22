@@ -1,10 +1,12 @@
 .content {
   background-color: #eff3f9;
+  padding: 30px;
 }
 
 h1 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 600;
+  margin: 0;
 }
 
 .image_item {
@@ -20,4 +22,30 @@ h1 {
 .one_item {
   display: flex;
   align-items: center;
+}
+
+.foto {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-image: url("./img/tornado.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  /* width: 150px; */
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.show_galery {
+  font-family: sans-serif;
+  font-size: small;
+  border: solid white 1px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 15px;
 }
