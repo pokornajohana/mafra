@@ -1,0 +1,23 @@
+.content {
+  background-color: #eff3f9;
+}
+
+h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+}
+
+.image_item {
+  width: 30px;
+  height: 30px;
+}
+
+.item {
+  font-family: sans-serif;
+  font-weight: 500
+}
+
+.one_item {
+  display: flex;
+  align-items: center;
+}
