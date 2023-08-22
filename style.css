@@ -85,3 +85,26 @@ h1 {
   font-weight: 500;
   font-size: small;
 }
+
+.input {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  border: #cedcf1 solid 1px;
+  border-radius: 2px;
+  font-family: sans-serif;
+  box-shadow: 0 -10px 10px 0 rgb(255, 255, 255);
+  z-index: 1;
+}
+
+
+.chevron_right {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+.show_more {
+  margin: 2px 0 2px 0;
+}
