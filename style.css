@@ -2,7 +2,6 @@ main {
   display: flex;
   flex-direction: column;
   background-color: #eff3f9;
-  /* background-color: #102547; */
   padding: 20px 15px 20px 30px;
   font-family: 'Fira Sans', sans-serif;
   min-width: 350px;
