@@ -15,7 +15,6 @@ main {
 }
 
 h1 {
-  font-weight: 600;
   font-size: 25px;
   margin: 0 0 10px 8px;
 }
@@ -34,7 +33,7 @@ ul {
 
 li {
   display: flex;
-  align-items: center;
+  align-items: start;
   list-style: circle;
 }
 
