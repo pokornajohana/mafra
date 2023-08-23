@@ -1,8 +1,9 @@
-.content {
+main {
   display: flex;
   flex-direction: column;
   background-color: #eff3f9;
-  padding: 30px;
+  /* background-color: #102547; */
+  padding: 20px 30px 20px 30px;
   font-family: 'Fira Sans', sans-serif;
   min-width: 350px;
   color: #102547;
@@ -15,7 +16,8 @@
 
 h1 {
   font-weight: 600;
-  margin: 0 0 10px 0;
+  font-size: 25px;
+  margin: 0 0 10px 8px;
 }
 
 .image_item {
@@ -25,21 +27,22 @@ h1 {
 }
 
 
-
-.item {
-  font-family: sans-serif;
-  font-weight: 400;
-  margin: 5px;
-}
-
 ul {
   padding: 0;
+  margin: 0;
 }
 
 li {
   display: flex;
   align-items: center;
   list-style: circle;
+}
+
+li p {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 5px;
 }
 
 .foto {
@@ -51,13 +54,11 @@ li {
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
-  position: relative;
-  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
-  ;
+  background: linear-gradient(rgb(0, 0, 0, 0.7));
   height: 100px;
   color: white;
   font-weight: 400;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 
@@ -76,13 +77,14 @@ li {
   border: solid white 1px;
   border-radius: 3px;
   padding: 3px 5px 3px 5px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .online {
   display: flex;
   flex-direction: column;
   align-items: start;
+  justify-content: space-around;
 }
 
 .red_circle {
@@ -105,6 +107,7 @@ li {
   margin: 5px;
   font-family: sans-serif;
   font-weight: 100;
+  font-size: 14px;
 }
 
 .time {
@@ -130,7 +133,6 @@ li {
   box-shadow: 0 -20px 15px 0 #eff3f9;
 }
 
-
 .chevron_right {
   width: 20px;
   height: 20px;
@@ -138,7 +140,7 @@ li {
 }
 
 .show_more {
-  margin: 2px 0 2px 0;
+  margin: 8px 0 8px 0;
 
 }
 
@@ -148,7 +150,7 @@ li {
     justify-content: center;
   }
 
-  .content {
+  main {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -157,18 +159,21 @@ li {
 
   .desktop {
     flex-direction: column;
+    height: 100%;
     width: 40%;
   }
 
   .online {
+    height: 85%;
     width: 35%;
   }
 
   .foto {
-    height: 200px;
+    height: 90%;
+    width: 150px;
   }
 
   .show_galery {
-    margin: 0 5px 5px 5px;
+    margin: 0 5px 8px 5px;
   }
 }
